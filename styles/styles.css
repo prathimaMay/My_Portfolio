@@ -227,10 +227,10 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 2rem;
 }
 .header-content .right-header .name {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
