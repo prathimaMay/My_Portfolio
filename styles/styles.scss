@@ -538,7 +538,7 @@ section {
       padding: 1.1rem;
       border-top: 8px solid var(--color-secondary);
       h4 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-bottom: 0.7rem;
         transition: all 0.4s ease-in-out;
         cursor: pointer;
@@ -548,8 +548,9 @@ section {
       }
       p {
         color: var(--color-grey-2);
-        line-height: 2rem;
+        line-height: 1.4rem;
         padding-bottom: 1rem;
+        font-size: 1rem;
       }
     }
   }

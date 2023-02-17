@@ -100,16 +100,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -550,7 +541,7 @@ section {
   border-top: 8px solid var(--color-secondary);
 }
 .blogs .blog .blog-text h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
@@ -560,8 +551,9 @@ section {
 }
 .blogs .blog .blog-text p {
   color: var(--color-grey-2);
-  line-height: 2rem;
+  line-height: 1.4rem;
   padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .contact-content-con {
